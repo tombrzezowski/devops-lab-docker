@@ -10,17 +10,17 @@ python -m venv venv
 .\venv\Scripts\activate
 pip install -r requirements.txt
 python app.py      # http://localhost:5000
-
+```
 ## Jak uruchomić w Dockerze
 ```bash
 docker build -t flask-docker-app .
 docker run -p 5000:5000 flask-docker-app   # http://localhost:5000
-
+```
 ## CI/CD (GitHub Actions)
-sanity-check Pythona,
-build obrazu Docker,
-uruchomienie kontenera,
-test endpointu / (curl),
+sanity-check Pythona,<br>
+build obrazu Docker,<br>
+uruchomienie kontenera,<br>
+test endpointu / (curl),<br>
 zatrzymanie kontenera.
 
 ## Autor
