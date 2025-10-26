@@ -23,5 +23,8 @@ uruchomienie kontenera,<br>
 test endpointu / (curl),<br>
 zatrzymanie kontenera.
 
+## Tech Stack
+Python • Flask • Docker • GitHub Actions • Linux • VS Code
+
 ## Autor
 Tomasz Brzezowski • tom.brzezowski@gmail.com
